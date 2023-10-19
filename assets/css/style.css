@@ -1,0 +1,119 @@
+/* -------------------------------- 
+          初期設定
+ -------------------------------- */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-size: 100%;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+li {
+  font-size: 18px;
+}
+
+/* -------------------------------- 
+          ヘッダー
+ -------------------------------- */
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h1 {
+  font-size: 34px;
+  font-weight: bold;
+  border: 1px solid #000000;
+  padding: 5px;
+  margin: 15px auto;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.header-nav a {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+/* -------------------------------- 
+          共通パーツ
+ -------------------------------- */
+.comon-title {
+  margin: 0 auto;
+}
+
+.comon-title h2 {
+  text-align: center;
+}
+
+/* -------------------------------- 
+          メインコンテンツ
+ -------------------------------- */
+
+.main {
+  width: 100vw;
+  height: 400px;
+}
+
+.main-visual img {
+  width: 50%;
+}
+
+/*--------- About --------- */
+
+h2 {
+  font-size: 34px;
+  font-weight: bold;
+  margin: 30px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.about-contents {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about-contents img {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+}
+
+/*--------- Works --------- */
+
+.works-contents {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.works-contents img {
+  width: 30vw;
+  height: auto;
+}
+
+/* -------------------------------- 
+          フッター
+ -------------------------------- */
+
+.footer {
+  text-align: center;
+}
