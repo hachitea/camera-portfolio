@@ -99,15 +99,20 @@ h3 {
 /*--------- Works --------- */
 
 .works-contents {
+  width: 100%;
   display: flex;
   justify-content: center;
   gap: 20px;
   margin-bottom: 60px;
 }
 
+.works-contents-img {
+  width: 25%;
+  margin: 0 auto;
+}
+
 .works-contents img {
-  width: 30vw;
-  height: auto;
+  width: 100%;
 }
 
 /* -------------------------------- 
