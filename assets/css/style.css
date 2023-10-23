@@ -17,6 +17,12 @@ li {
   font-size: 18px;
 }
 
+section:not(.main) {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 /* -------------------------------- 
           ヘッダー
  -------------------------------- */
@@ -38,6 +44,7 @@ li {
 .header-nav {
   display: flex;
   justify-content: flex-end;
+  margin-top: 20px;
   gap: 20px;
 }
 
@@ -64,10 +71,12 @@ li {
 .main {
   width: 100vw;
   height: 400px;
+  text-align: center;
+  margin-bottom: 260px;
 }
 
 .main-visual img {
-  width: 50%;
+  width: 100%;
 }
 
 /*--------- About --------- */
@@ -87,13 +96,14 @@ h3 {
 .about-contents {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 
 .about-contents img {
   border-radius: 50%;
-  width: 130px;
-  height: 130px;
+  width: auto;
+  height: auto;
 }
 
 /*--------- Works --------- */
